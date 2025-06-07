@@ -32,7 +32,7 @@ const Login = () => {
             <Field inputValue={password} fieldOnChange={(e)=>setPassword(e.target.value)}
               placeHolder="Password"
               type={showPassword ? "text" : "password"}
-              className="pr-10" // for space to show icon
+              className="pr-10"
             />
             <span
               onClick={() => setShowPassword(!showPassword)}
